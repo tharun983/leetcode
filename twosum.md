@@ -1,8 +1,4 @@
 
-Certainly! Here is a simple README file in markdown format for your GitHub repository:
-
-markdown
-Copy code
 # Two Sum
 
 This repository contains a Python implementation of the Two Sum problem, where given an array of integers and a target value, the program finds the indices of two numbers in the array that add up to the target.
