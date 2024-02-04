@@ -20,25 +20,24 @@ target = 9
 output = [0, 1]
 Example 2:
 
-python
-Copy code
 nums = [3, 2, 4]
 target = 6
 output = [1, 2]
 Example 3:
 
-python
-Copy code
 nums = [3, 3]
 target = 6
 output = [0, 1]
 Implementation
 The solution is implemented in Python and uses a hash table (dictionary) to achieve a time complexity less than O(n^2). The two_sum function takes an array nums and a target value target as input and returns the indices of the two numbers that add up to the target.
 
-Usage
-python
-Copy code
 from two_sum import two_sum
+
+nums = [2, 7, 11, 15]
+target = 9
+result = two_sum(nums, target)
+print(result)  # Output: [0, 1]
+
 
 nums = [2, 7, 11, 15]
 target = 9
@@ -52,10 +51,6 @@ Only one valid answer exists.
 Follow-up
 The algorithm achieves a time complexity of O(n) by utilizing a hash table. No further optimizations are necessary for this specific problem.
 
-css
-Copy code
-
-Feel free to customize this README file based on additional information or specific details you'd like to include.
 
 
 
